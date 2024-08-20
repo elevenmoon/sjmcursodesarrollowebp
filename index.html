@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 2</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/fontawesome-free-6.6.0-web/css/all.css">
+</head>
+<body>
+
+    <nav>
+        <li>
+            <a href="#">
+                <i class="fa-solid fa-house"></i>Inicio
+            </a>
+        </li>
+        <!--usar iconos-->
+        <li><a href="#"><i class="fa-solid fa-comment"></i>Quienes somos</a></li>
+        <li><a href="#"><i class="fa-solid fa-truck-fast"></i>Servicios</a></li>
+        <li><a href="#"><i class="fa-solid fa-phone"></i>Contactos</a></li>
+        <!--esto es un comentario-->
+    </nav>
+    <section class="servicios">
+        <h1 class="h1">Conoce nuestros servicios</h1>
+        <article class="servicio1">
+            <h2 class="diseno">Diseño web</h2>
+            <p>Diseñamos el sitio web que tu empresa necesita</p>
+        </article>
+        <table border="1">
+            <tr>
+                <th>#</th>
+                <th>Nombre</th>
+                <th>Ciudad</th>
+                <th>Monto</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Juan</td>
+                <td>Maracay</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Pedro</td>
+                <td>Valencia</td>
+                <td>80</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Lucia</td>
+                <td>Puerto la cruz</td>
+                <td>90</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Roco</td>
+                <td>Caracas</td>
+                <td>100</td>
+            </tr>
+
+        </table>
+    </section>
+    <section class="fotografia">
+        <a href="https://www.google.com" target="_blank"><img class="img" src="assets/images/gato1.jpg" width="50%" alt="gato"></a>
+    </section>
+    <section class="contacto">
+        <form action="post" action="#"></form>
+            <label for="name" class="name">Nombre</label>
+            <input type="text" name="name" placeholder="Nombre">
+            <label for="email" class="email">Email</label>
+            <input type="email" name="email" placeholder="Email">
+            <label for="tel" class="tel"> Telefono</label>
+            <input type="text" name="tel">
+            <label for="ciudad" class="ciudad">Ciudad</label>
+            <select name="ciudad" >
+                <option value=""> Selecciona una opccion</option>
+                <option value="caracas">Caracas</option>
+                <option value="Maracay"> Maracay</option>
+                <option value="San Juan de los Morros"> San Juan de los Morros</option>
+            </select>
+            <label for="sexo" class="sexo"> Sexo</label>
+            <select name="sexo">
+                <option value="">Seleccione una opccion</option>
+                <option value="f">Femenino</option>
+                <option value="m">Masculino</option>
+            </select>
+            <input type="submit" value="Enviar">
+    </section>
+    
+</body>
+</html>
