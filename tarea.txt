@@ -3,7 +3,9 @@ investigar diferentes unidades de medida
 tratar de replicar la pagina
 
 2da semana
-como armar un formulario
-como armar tabla
-como usar google fonts
-como usar fontsawesome
+como armar un formulario --listo 
+como armar tabla --listo
+como usar google fonts --listo 
+como usar fontsawesome --listo
+
+nota: tambien se reviso git
