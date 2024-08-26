@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Ubuntu", sans-serif;
+}
+:root{
+    --primary-color: #3A1078;
+    --secundary-color: #4E31AA;
+    --blue: #3795BD;
+    --grey-soft: #F7F7F8;
+    --white: #fff;
+    --black: #0000;
+    --grey-hard:#222831;
+}
+/*para cuadrar la imangen*/
+.padding-left-50px{
+    padding-left: 50px;
+}
+header{
+    height: 100px;
+    width: 100%;
+    border-bottom: 3px solid;
+    border-bottom-color: var(--secundary-color);
+    background-color: var(--primary-color);
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    float: right;
+}
+
+nav ul{
+    list-style: none; /*quitar el estilo de las listas*/
+    position: absolute;
+    right: 0px;
+    margin-top: 20px;
+
+}
+nav li{
+    display: inline; /*se muestra en horizontal*/
+    padding: 10px 15px;
+    background-color: var(--primary-color);
+}
+
+nav li a {
+    color: var(--white);
+    font-size: 18px;
+    text-decoration: none;
+}
+nav li a:hover{
+    color: green;
+}
+
+.servicios{
+    display: grid;
+    height: 350px;
+    align-content: center;
+    grid-template-columns: auto auto auto;
+    gap: 30px;
+    background-color: var(--white);
+    padding: 10px;
+    margin-top: 100px;
+}
+
+.item-servicios{
+    border: 1px solid gray;
+    align-content: center;
+    padding: 30px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.title{
+    text-align: center;
+}
+h2{
+    font-size: 48px;
+    font-weight: 800;
+    color: var(--primary-color);
+}
+
+h3{
+    font-size: 24px;
+}
+
+
+p{
+    font-size: 18px;
+}
+
+.icon{
+    font-size: 60px;
+    color: var(--secundary-color);
+}
+.nosotros{
+    display: grid;
+    align-content: center;
+    grid-template-columns: auto auto;
+    gap: 30px;
+    padding: 100px;
+    margin-top: 100px;
+    background-color: var(--secundary-color);
+}
+
+.imagen{
+    height: 400px;
+    width: 550px;
+    border-radius: 20px;
+}
+
+.nosotros h2{
+    color:var(--white);
+    text-transform: uppercase;
+}
+.contactanos{
+    background-color: #04AA6D; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius:22px;
+}
+.nosotros p{
+    color:white;
+}
