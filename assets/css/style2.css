@@ -6,10 +6,10 @@ body{
     font-family: "Ubuntu", sans-serif;
 }
 :root{
-    --primary-color: #3A1078;
-    --secundary-color: #4E31AA;
-    --blue: #3795BD;
-    --grey-soft: #F7F7F8;
+    --primary-color: #0D7C66;
+    --secundary-color: #41B3A2;
+    --green: #BDE8CA;
+    --grey-soft: #f8f8f7;
     --white: #fff;
     --black: #0000;
     --grey-hard:#222831;

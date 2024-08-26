@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Ubuntu", sans-serif;
+}
+:root{
+    --primary-color: #0D7C66;
+    --secundary-color: #41B3A2;
+    --green: #BDE8CA;
+    --grey-soft: #f8f8f7;
+    --white: #fff;
+    --black: #0000;
+    --grey-hard:#222831;
+}
+/*para cuadrar la imangen*/
+.padding-left-50px{
+    padding-left: 50px;
+}
+header{
+    height: 100px;
+    width: 100%;
+    border-bottom: 3px solid;
+    border-bottom-color: var(--secundary-color);
+    background-color: var(--primary-color);
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    float: right;
+}
+
+nav ul{
+    list-style: none; /*quitar el estilo de las listas*/
+    position: absolute;
+    right: 0px;
+    margin-top: 20px;
+
+}
+nav li{
+    display: inline; /*se muestra en horizontal*/
+    padding: 10px 15px;
+    background-color: var(--primary-color);
+}
+
+nav li a {
+    color: var(--white);
+    font-size: 18px;
+    text-decoration: none;
+}
+nav li a:hover{
+    color: blue;
+}
+
