@@ -136,6 +136,7 @@ p{
 .contacto{
     width: 100%;
     background-color: aqua;
+    padding-bottom: 10px;
     display: flex;
     flex-direction: row;
 }
@@ -177,4 +178,11 @@ label{
     padding-left: 10%;
     padding-right: 10%;
     padding-top: 5%;
+}
+
+.footer{
+    padding-top: 10px;
+    background-color: gray;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
 }
