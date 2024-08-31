@@ -186,3 +186,29 @@ label{
     display: grid;
     grid-template-columns: auto auto auto auto;
 }
+
+.simage{
+    width: 200px;
+    height: 100px;
+    border-radius: 45px;
+}
+
+a{
+    text-decoration: none;
+    color: #222831;
+}
+
+.ulsangria{
+    list-style-type: circle;
+    list-style: circle;
+}
+
+.ulprimero{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-left: 10px; 
+}
+.ulprimero{
+    margin-left: 10px;
+}
