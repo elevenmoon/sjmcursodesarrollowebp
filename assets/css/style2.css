@@ -212,3 +212,23 @@ a{
 .ulprimero{
     margin-left: 10px;
 }
+
+.box{
+    width: 500px;
+    height: 500px;
+    background-color: blue;
+    animation-name: boxblue;
+    animation-duration: 10s;
+}
+
+@keyframes boxblue {
+    /*cambio de colores automatico*/
+    /*from { background-color: blue;}
+    to { background-color: red;}*/
+    
+    /*cambio de colores y tiempo seleccionado*/
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+}
