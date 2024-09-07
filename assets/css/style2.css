@@ -4,6 +4,7 @@ body{
     margin: 0px;
     padding: 0px;
     font-family: "Ubuntu", sans-serif;
+    text-decoration: none;
 }
 :root{
     --primary-color: #0D7C66;
@@ -13,6 +14,20 @@ body{
     --white: #fff;
     --black: #0000;
     --grey-hard:#222831;
+}
+
+a:hover{
+    color: black;
+}
+a:focus{
+    color: yellow;
+}
+a:visited{
+    color: var(--primary-color);
+}
+a:link{
+    color: var(--grey-hard);
+    text-decoration: none;
 }
 /*para cuadrar la imangen*/
 .padding-left-50px{
