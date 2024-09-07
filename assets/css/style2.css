@@ -221,6 +221,7 @@ a{
     position: relative;
     animation-name: boxblue;
     animation-duration: 10s;
+    /*movimiento en recto*/
     animation: mymove 5s;
     animation-fill-mode: forwards;
     /*esperar para que empieze la animacion*/
@@ -244,7 +245,7 @@ a{
     from{left: 0px;}
     to{ left: 500px;}
 }
-
+/*movimientos rectos */
 #div1 {animation-timing-function: linear;}
 #div2 {animation-timing-function: ease;}
 #div3 {animation-timing-function: ease-in;}
@@ -254,4 +255,15 @@ a{
 @keyframes mymove {
     from {left: 0px;}
     to {left: 300px;}
+}
+/*cambio de un icono de color */
+.cambiocolor{
+    animation-name: iconblue;
+    animation-duration: 3s;
+}
+
+/*cambio de color del icono*/
+@keyframes iconblue {   
+    from { color: blue;}
+    to { color: var(--secundary-color);}
 }
