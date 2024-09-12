@@ -282,3 +282,44 @@ a{
     from { color: blue;}
     to { color: var(--secundary-color);}
 }
+
+.fotografia{
+    width: 100%;
+    background-image: url(/assets/images/imgfotografia.jpg);
+    background-position: center center;
+    background-repeat: none;
+    padding: 10% 10%;
+    text-align: center;
+}
+
+.fotografia p{
+    color: white;
+}
+
+.fotografia h1{
+    color:white;
+}
+
+.galeria{
+    display: grid;
+    height: 350px;
+    align-content: center;
+    grid-template-columns: auto auto auto;
+    gap: 30px;
+    background-color: var(--white);
+    margin-top: 100px;
+}
+
+.fotos{
+    border: 1px solid gray;
+    align-content: center;
+    padding: 30px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.foto{
+    width: 100%;
+    height: 100%;
+    position: top;
+}
