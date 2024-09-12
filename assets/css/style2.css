@@ -307,7 +307,9 @@ a{
     grid-template-columns: auto auto auto;
     gap: 30px;
     background-color: var(--white);
-    margin-top: 100px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+
 }
 
 .fotos{
@@ -316,10 +318,15 @@ a{
     padding: 30px;
     border-radius: 5px;
     text-align: center;
+    padding-bottom: -25px;
 }
 
 .foto{
     width: 100%;
     height: 100%;
     position: top;
+}
+
+.tserviciofotografia{
+    margin-top: 0%;
 }
