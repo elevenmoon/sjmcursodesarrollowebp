@@ -352,3 +352,22 @@ a{
     padding-top: 0px;
     padding-bottom: 0px;
 }
+
+.imgdesarrolloweb{
+    background-image: url(/assets/images/desarrollowebrecurso01.jpg);
+    width: 100px;
+    height: 468px;
+    background-repeat: repeat;
+}
+
+.desarrolloweb{
+    display: grid;
+    align-content: center;
+    grid-template-columns: auto auto;
+    gap: 30px;
+    padding: 0px;
+    margin-top: 0px;
+    background-color: var(--secundary-color);
+    text-align: center;
+    align-items: center;
+}
