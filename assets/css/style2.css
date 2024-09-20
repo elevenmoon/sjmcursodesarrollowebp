@@ -330,3 +330,25 @@ a{
 .tserviciofotografia{
     margin-top: 0%;
 }
+
+.disenonosotros{
+    display: grid;
+    align-content: center;
+    grid-template-columns: auto auto auto;
+    gap: 30px;
+    padding: 0px;
+    margin-top: 0px;
+    background-color: var(--secundary-color);
+    text-align: center;
+    align-items: center;
+}
+
+.imgdiseno{
+    background-image: url(/assets/images/tendenciasdisenografico.jpg);
+    width: 500px;
+    height: 500px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
