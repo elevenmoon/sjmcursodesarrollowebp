@@ -371,3 +371,19 @@ a{
     text-align: center;
     align-items: center;
 }
+
+.sectdesarrolloapp{
+    display: flex;
+    flex-direction: row;
+}
+
+.imgdesarrolloapp{
+    background-image: url(/assets/images/plataformasmoviles.jpg);
+    width: 1900px;
+    height: 391px;
+}
+
+.txtdesarrolloweb{
+    text-align: center;
+    align-content: center;
+}
