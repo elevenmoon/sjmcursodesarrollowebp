@@ -3,91 +3,125 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clase 2</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/fontawesome-free-6.6.0-web/css/all.css">
+    <link rel="stylesheet" href="/assets/css/style2.css">
+    <link rel="stylesheet" href="/assets/fontawesome-free-6.6.0-web/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>Endigital</title>
 </head>
 <body>
-
-    <nav>
-        <li>
-            <a href="#">
-                <i class="fa-solid fa-house"></i>Inicio
-            </a>
-        </li>
-        <!--usar iconos-->
-        <li><a href="#"><i class="fa-solid fa-comment"></i>Quienes somos</a></li>
-        <li><a href="#"><i class="fa-solid fa-truck-fast"></i>Servicios</a></li>
-        <li><a href="#"><i class="fa-solid fa-phone"></i>Contactos</a></li>
-        <!--esto es un comentario-->
-    </nav>
+    <header>
+        <nav>
+            <li> <a href="index.html">Inicio</a></li>
+            <li> <a href="servicios.html">Servicios</a></li>
+            <li> <a href="blog.html">Blog</a></li>
+            <li> <a href="contacto.html">Contacto</a></li>
+        </nav>
+    </header>
+    <section class="title">
+    <h2 class="animate__animated animate__bounce">Servicios</h2>
+        <p>Te brindamos una gran gama de herramientas para ayudar a tener presencias</p>
+    </section>
     <section class="servicios">
-        <h1 class="h1">Conoce nuestros servicios</h1>
-        <article class="servicio1">
-            <h2 class="diseno">Diseño web</h2>
-            <p>Diseñamos el sitio web que tu empresa necesita</p>
+        <div class="item-servicios animate__animated animate__fadeInLeft">
+            <a href="fotografia.html"><i class="fa-solid fa-camera-retro icon cambiocolor"></i></a>
+            <h3>Fotografia</h3>
+            <p>hacemos tus eventos memorables</p>
+        </div>
+        <div class="item-servicios animate__animated animate__fadeInDown animate__delay-2s">
+            <a href="disenografico.html"><i class="fa-solid fa-palette icon cambiocolor"></i></a>
+            <h3>Diseño grafico</h3>
+            <p>Hacemos tus ideas realidad</p>
+        </div>
+        <div class="item-servicios animate__animated animate__fadeInRight animate__delay-3s">
+            <a href="desarrolloweb.html"><i class="fa-solid fa-desktop icon cambiocolor"></i></a>
+            <h3>Desarrollo web</h3>
+            <p>Creamos el sitio web a tu medida</p>
+        </div>
+        <div class="item-servicios animate__animated animate__fadeInLeft animate__delay-4s">
+            <a href="seo.html"><i class="fa-solid fa-location-dot icon cambiocolor"></i></a>
+            <h3>SEO</h3>
+            <p>Posicionamos tu app</p>
+        </div>
+        <div class="item-servicios animate__animated animate__fadeInUp animate__delay-5s">
+            <a href="desarrolloapp.html"><i class="fa-solid fa-mobile-screen-button icon cambiocolor"></i></a>
+            <h3>Desarrollo de App</h3>
+            <p>creamos a la app que tu empresa necesita</p>
+        </div>
+        <div class="item-servicios animate__animated animate__fadeInRight">
+            <a href="audiovisuales.html"><i class="fa-solid fa-video icon cambiocolor"></i></a>
+            <h3>Audio-Visual</h3>
+            <p>producimos y editamos tus videos</p>
+        </div>
+        <!--
+        <div class="box"></div>
+        <div class="box" id="div1">linear</div>
+        <div class="box" id="div2">ease</div>
+        <div class="box" id="div3">ease-in</div>
+        <div class="box" id="div4">ease-out</div>
+        <div class="box" id="div5">ease-in-out</div>-->
+    </section>
+    <section class="nosotros">
+        <div class="img animate__animated animate__fadeInLeft">
+            <img src="assets/images/perro.jpg" alt="perro" class="imagen">
+            <!--revisar los servicios-->
+        </div>
+        <div>
+            <h2 class="animate__animated animate__fadeInRight">Corporacion en digital</h2>
+            <p class="textcontactanos animate__animated animate__fadeInRight animate__delay-2s"><a href="#">Somos un equipo</a> de profesionales, entuciastasde la tecnologia, con habilidades unicas que van a hacer crecer tu marca</p>
+            <button class="contactanos animate__animated animate__fadeInRight animate__delay-2s"><i class="fa-solid fa-phone">  Contactanos</i></button>
+        </div>
+    </section>
+    <section class="contacto animate__animated animate__fadeInLeft">
+        <article class="contact1">
+            <h2>Contactanos</h2>
+            <p>Estamos muy contentos de poder ayudarte en tu prouecto</p>
         </article>
-        <table border="1">
-            <tr>
-                <th>#</th>
-                <th>Nombre</th>
-                <th>Ciudad</th>
-                <th>Monto</th>
-            </tr>
-            <tr>
-                <td>1</td>
-                <td>Juan</td>
-                <td>Maracay</td>
-                <td>100</td>
-            </tr>
-            <tr>
-                <td>2</td>
-                <td>Pedro</td>
-                <td>Valencia</td>
-                <td>80</td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td>Lucia</td>
-                <td>Puerto la cruz</td>
-                <td>90</td>
-            </tr>
-            <tr>
-                <td>4</td>
-                <td>Roco</td>
-                <td>Caracas</td>
-                <td>100</td>
-            </tr>
-
-        </table>
+        <article class="contact2 animate__animated animate__fadeInRight animate__delay-2s">
+            <form action="" name="form1" method="post">
+                <label for="name">Nombre</label>
+                <input type="text" name="name" placeholder="Escribe tu Nombre">
+                <label for="email">email</label>
+                <input type="email" name="email" placeholder="Escribe tu email">
+                <label for="telefono">Telefono</label>
+                <input type="telefono" name="telefono" placeholder="Escribe tu telefono">
+                <label for="mensaje">mensaje</label>
+                <textarea name="mensaje" placeholder="escribe aqui tu mensaje"></textarea>
+                <button class="bcontacto"><i class="fa-solid fa-paper-plane">  Enviar</i></button>
+            </form>
+        </article>
     </section>
-    <section class="fotografia">
-        <a href="https://www.google.com" target="_blank"><img class="img" src="assets/images/gato1.jpg" width="50%" alt="gato"></a>
-    </section>
-    <section class="contacto">
-        <form action="post" action="#"></form>
-            <label for="name" class="name">Nombre</label>
-            <input type="text" name="name" placeholder="Nombre">
-            <label for="email" class="email">Email</label>
-            <input type="email" name="email" placeholder="Email">
-            <label for="tel" class="tel"> Telefono</label>
-            <input type="text" name="tel">
-            <label for="ciudad" class="ciudad">Ciudad</label>
-            <select name="ciudad" >
-                <option value=""> Selecciona una opccion</option>
-                <option value="caracas">Caracas</option>
-                <option value="Maracay"> Maracay</option>
-                <option value="San Juan de los Morros"> San Juan de los Morros</option>
-            </select>
-            <label for="sexo" class="sexo"> Sexo</label>
-            <select name="sexo">
-                <option value="">Seleccione una opccion</option>
-                <option value="f">Femenino</option>
-                <option value="m">Masculino</option>
-            </select>
-            <input type="submit" value="Enviar">
-            <p>cambio despues del primer push</p>
-    </section>
-    
+    <footer class="footer">
+        <section class="sredes">
+            <img class="simage" src="/assets/images/networking.jpg" alt="redes">
+            <ul class="ulprimero">
+                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+            </ul>
+        </section>
+        <section class="sempresa">
+            <ul> Empresa
+                <li class="ulsangria"><a href="#">nosotros</a></li>
+                <li class="ulsangria"><a href="#">team</a></li>
+                <li class="ulsangria"><a href="#">portafolio</a></li>
+            </ul>
+        </section>
+        <section class="sservicios">
+            <ul>Servicios
+            <li class="ulsangria"><a href="#">Desarrollo web</a></li>
+            <li class="ulsangria"><a href="#">Fotografia</a></li>
+            <li class="ulsangria"><a href="#">SEO</a></li>
+            <li class="ulsangria"><a href="#">Desarrollo App</a></li>
+            <li class="ulsangria"><a href="#">Audio-Visual</a></li>
+            </ul>
+        </section>
+        <section class="scontacto">
+            <ul>Contactos
+                <li class="ulsangria"><i class="fa-solid fa-phone">  0412-4058997</i></li>
+                <li class="ulsangria"><i class="fa-solid fa-envelope">  roman.edgardogarcia@gmail.com</i></li>
+                <li class="ulsangria"><i class="fa-solid fa-map-location-dot">  Res. Villa Real</i></li>
+            </ul>
+        </section>
+    </footer>
 </body>
 </html>
