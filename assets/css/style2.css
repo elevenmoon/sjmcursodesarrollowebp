@@ -439,6 +439,7 @@ a{
     list-style: none;
     background-color: #04AA6D;
     color: black;
+    padding-top: 10%;
 }
 
 .titapp{
@@ -455,13 +456,18 @@ a{
 }
 
 .precio{
-    font-size: 36px;
+    font-size: 48px;
+    font-weight: 800;
 }
 
-.material-symbols-outlined {
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 24
+.goldcard:hover{
+    background-color: green;
+}
+
+.platecard:hover{
+    background-color: aqua;
+}
+
+.bronzeplate:hover{
+    background-color: brown;
 }
