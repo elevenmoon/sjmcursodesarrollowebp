@@ -419,3 +419,36 @@ a{
     width: 600px;
     margin: 10px 30px 30px 30px;
 }
+
+.planes{
+    display: grid;
+    align-content: center;
+    grid-template-columns: auto auto auto;
+    gap: 30px;
+    padding: 0px;
+    margin-top: 0px;
+    background-color: white;
+    text-align: center;
+    align-items: center;
+}
+
+.card{
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 10px 10px 10px 10px;
+    list-style: none;
+    background-color: #04AA6D;
+    color: black;
+}
+
+.titapp{
+    color: yellow;
+}
+
+.sectapp{
+    text-align: center;
+}
+
+.listplanes{
+    list-style: none;
+}

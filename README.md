@@ -12,7 +12,7 @@ Creamos tu sitio web, desarrollamos app y tambien hacemos memorables tus momento
 1. desarrollo web
 1. desarrollo app
 1. Seo
-1. Audio visuales
+1. Audio visuales 
     1.flyer
     1.Logos
     1. Tarjetas de presentacion
