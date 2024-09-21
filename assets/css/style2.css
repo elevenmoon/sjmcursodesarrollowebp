@@ -403,3 +403,19 @@ a{
     width: 600px;
     margin: 30px 30px 30px 30px;
 }
+
+.sectseo{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: var(--secundary-color);
+}
+
+.imgseo{
+    border: 1px;
+    border-radius: 20px;
+    width: 600px;
+    margin: 10px 30px 30px 30px;
+}
