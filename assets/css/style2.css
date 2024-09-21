@@ -451,4 +451,17 @@ a{
 
 .listplanes{
     list-style: none;
+    text-align: left;
+}
+
+.precio{
+    font-size: 36px;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
 }
