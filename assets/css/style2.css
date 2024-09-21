@@ -387,3 +387,19 @@ a{
     text-align: center;
     align-content: center;
 }
+
+.sectaudiovisual{
+    display: grid;
+    align-content: center;
+    grid-template-columns: auto auto;
+    background-color: var(--secundary-color);
+    text-align: center;
+    align-items: center;
+}
+
+.imgaudiovisual{
+    border: 1px;
+    border-radius: 20px;
+    width: 600px;
+    margin: 30px 30px 30px 30px;
+}
