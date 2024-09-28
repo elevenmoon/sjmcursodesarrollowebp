@@ -444,6 +444,7 @@ a{
 
 .titapp{
     color: yellow;
+    margin: 0%;
 }
 
 .sectapp{
@@ -470,4 +471,29 @@ a{
 
 .bronzeplate:hover{
     background-color: brown;
+}
+
+.plandiseno{
+    display: grid;
+    align-content: center;
+    grid-template-columns: auto auto;
+    gap: 30px;
+    padding: 0px;
+    margin-top: 0px;
+    text-align: center;
+    align-items: center;
+}
+
+.colorgreenyellow{
+    background-color: greenyellow;
+}
+
+.carddiseno{
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 5% 20% 5% 20%;
+    list-style: none;
+    background-color: #04AA6D;
+    color: black;
+    padding-top: 5%;
 }
