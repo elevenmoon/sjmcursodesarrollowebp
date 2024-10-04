@@ -1,0 +1,63 @@
+/*para los media responsive por media queries se debe poner el tamano de la pantalla y adentro todos 
+los elemento que va a cambios*/
+
+@media only screen and (max-width: 600px) {
+    
+    .servicios {
+        width: 100%;
+        align-content: center;
+        grid-template-columns: auto;
+        gap: 5px;
+        margin-right: 10%;
+    }
+    
+    .title{
+        margin-bottom: 10%;
+    }
+    
+    h2{
+        font-size: 16px;
+    }
+    
+    .imagen{
+        height: 220px;
+        width: 180px;
+        border-radius: 20px;
+    }
+    
+    .nosotros{
+        grid-template-columns: auto;
+        margin-top: auto;
+        padding: auto;
+    }
+
+    
+    .footer{
+        grid-template-columns: auto;
+    }
+    
+    .contacto{
+        flex-direction: column;
+    }
+    
+    .card{
+        margin: 0px 0px 0px 0px;
+    }
+    
+    }
+    
+    @media only screen and (max-width:840px){
+    .nosotros{
+        grid-template-columns: auto;
+        margin-top: auto;
+        padding: auto;
+    }
+    
+    .contacto{
+        flex-direction: column;
+    }
+    
+    .servicios{
+        margin-top: 5%;
+    }
+    }
